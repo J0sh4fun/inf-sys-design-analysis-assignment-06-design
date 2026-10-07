@@ -1,0 +1,595 @@
+{
+  "method": "Leave-one-out nearest neighbour over 40 catalog photos; exact self-match excluded.",
+  "purpose": "Internal regression proxy for visual category retrieval, not an external benchmark.",
+  "results": [
+    {
+      "model": "MobileNetV2 ImageNet logits (previous)",
+      "embedding_dimension": 1000,
+      "queries": 40,
+      "category_top_1": 29,
+      "category_accuracy": 0.725,
+      "color_top_1": 13,
+      "color_accuracy": 0.325,
+      "category_and_color_top_1": 11,
+      "category_and_color_accuracy": 0.275,
+      "elapsed_ms": 970.15730000021,
+      "cases": [
+        {
+          "query_product_id": 1,
+          "nearest_product_id": 15,
+          "score": 0.6842226982116699,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 2,
+          "nearest_product_id": 9,
+          "score": 0.6638641357421875,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 3,
+          "nearest_product_id": 16,
+          "score": 0.600877046585083,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 4,
+          "nearest_product_id": 25,
+          "score": 0.6741346120834351,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 5,
+          "nearest_product_id": 4,
+          "score": 0.6185015439987183,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 6,
+          "nearest_product_id": 31,
+          "score": 0.7020404934883118,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 7,
+          "nearest_product_id": 29,
+          "score": 0.698331892490387,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 8,
+          "nearest_product_id": 33,
+          "score": 0.637887716293335,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 9,
+          "nearest_product_id": 29,
+          "score": 0.7952351570129395,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 10,
+          "nearest_product_id": 29,
+          "score": 0.7012032866477966,
+          "category_match": false,
+          "color_match": true
+        },
+        {
+          "query_product_id": 11,
+          "nearest_product_id": 31,
+          "score": 0.6459481716156006,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 12,
+          "nearest_product_id": 29,
+          "score": 0.7341369390487671,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 13,
+          "nearest_product_id": 17,
+          "score": 0.5432088375091553,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 14,
+          "nearest_product_id": 16,
+          "score": 0.6715936660766602,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 15,
+          "nearest_product_id": 1,
+          "score": 0.6842226982116699,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 16,
+          "nearest_product_id": 14,
+          "score": 0.6715936660766602,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 17,
+          "nearest_product_id": 19,
+          "score": 0.6167032122612,
+          "category_match": false,
+          "color_match": true
+        },
+        {
+          "query_product_id": 18,
+          "nearest_product_id": 1,
+          "score": 0.6166411638259888,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 19,
+          "nearest_product_id": 25,
+          "score": 0.6726386547088623,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 20,
+          "nearest_product_id": 2,
+          "score": 0.46615633368492126,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 21,
+          "nearest_product_id": 19,
+          "score": 0.6419845819473267,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 22,
+          "nearest_product_id": 4,
+          "score": 0.6318231821060181,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 23,
+          "nearest_product_id": 2,
+          "score": 0.6079709529876709,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 24,
+          "nearest_product_id": 11,
+          "score": 0.5717417001724243,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 25,
+          "nearest_product_id": 4,
+          "score": 0.6741346120834351,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 26,
+          "nearest_product_id": 27,
+          "score": 0.8675193786621094,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 27,
+          "nearest_product_id": 26,
+          "score": 0.8675193786621094,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 28,
+          "nearest_product_id": 27,
+          "score": 0.8387125730514526,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 29,
+          "nearest_product_id": 9,
+          "score": 0.7952351570129395,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 30,
+          "nearest_product_id": 27,
+          "score": 0.7979874014854431,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 31,
+          "nearest_product_id": 27,
+          "score": 0.8535614013671875,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 32,
+          "nearest_product_id": 6,
+          "score": 0.6993796825408936,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 33,
+          "nearest_product_id": 8,
+          "score": 0.637887716293335,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 34,
+          "nearest_product_id": 6,
+          "score": 0.6218612790107727,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 35,
+          "nearest_product_id": 11,
+          "score": 0.629561185836792,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 36,
+          "nearest_product_id": 33,
+          "score": 0.5824518799781799,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 37,
+          "nearest_product_id": 32,
+          "score": 0.5876361727714539,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 38,
+          "nearest_product_id": 9,
+          "score": 0.5254621505737305,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 39,
+          "nearest_product_id": 40,
+          "score": 0.5621293783187866,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 40,
+          "nearest_product_id": 39,
+          "score": 0.5621293783187866,
+          "category_match": true,
+          "color_match": false
+        }
+      ]
+    },
+    {
+      "model": "CLIP ViT-B/32 semantic embedding (current)",
+      "embedding_dimension": 512,
+      "queries": 40,
+      "category_top_1": 38,
+      "category_accuracy": 0.95,
+      "color_top_1": 19,
+      "color_accuracy": 0.475,
+      "category_and_color_top_1": 19,
+      "category_and_color_accuracy": 0.475,
+      "elapsed_ms": 2339.409300000625,
+      "cases": [
+        {
+          "query_product_id": 1,
+          "nearest_product_id": 18,
+          "score": 0.8519644141197205,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 2,
+          "nearest_product_id": 14,
+          "score": 0.7591859102249146,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 3,
+          "nearest_product_id": 15,
+          "score": 0.7125570774078369,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 4,
+          "nearest_product_id": 22,
+          "score": 0.8729958534240723,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 5,
+          "nearest_product_id": 4,
+          "score": 0.8572909832000732,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 6,
+          "nearest_product_id": 27,
+          "score": 0.7933919429779053,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 7,
+          "nearest_product_id": 28,
+          "score": 0.7507110834121704,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 8,
+          "nearest_product_id": 33,
+          "score": 0.7521533966064453,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 9,
+          "nearest_product_id": 33,
+          "score": 0.7746849060058594,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 10,
+          "nearest_product_id": 16,
+          "score": 0.7845944762229919,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 11,
+          "nearest_product_id": 21,
+          "score": 0.5681532025337219,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 12,
+          "nearest_product_id": 26,
+          "score": 0.7017631530761719,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 13,
+          "nearest_product_id": 18,
+          "score": 0.8574877381324768,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 14,
+          "nearest_product_id": 2,
+          "score": 0.7591859102249146,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 15,
+          "nearest_product_id": 19,
+          "score": 0.7670398354530334,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 16,
+          "nearest_product_id": 10,
+          "score": 0.7845944762229919,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 17,
+          "nearest_product_id": 18,
+          "score": 0.8248400688171387,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 18,
+          "nearest_product_id": 13,
+          "score": 0.8574877381324768,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 19,
+          "nearest_product_id": 22,
+          "score": 0.7897510528564453,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 20,
+          "nearest_product_id": 5,
+          "score": 0.8049653172492981,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 21,
+          "nearest_product_id": 23,
+          "score": 0.7641053795814514,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 22,
+          "nearest_product_id": 4,
+          "score": 0.8729958534240723,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 23,
+          "nearest_product_id": 5,
+          "score": 0.8182598352432251,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 24,
+          "nearest_product_id": 6,
+          "score": 0.7156917452812195,
+          "category_match": false,
+          "color_match": false
+        },
+        {
+          "query_product_id": 25,
+          "nearest_product_id": 4,
+          "score": 0.7705518007278442,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 26,
+          "nearest_product_id": 12,
+          "score": 0.7017631530761719,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 27,
+          "nearest_product_id": 6,
+          "score": 0.7933919429779053,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 28,
+          "nearest_product_id": 7,
+          "score": 0.7507110834121704,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 29,
+          "nearest_product_id": 30,
+          "score": 0.7441439628601074,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 30,
+          "nearest_product_id": 27,
+          "score": 0.7532572746276855,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 31,
+          "nearest_product_id": 27,
+          "score": 0.765212893486023,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 32,
+          "nearest_product_id": 6,
+          "score": 0.6958855390548706,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 33,
+          "nearest_product_id": 9,
+          "score": 0.7746849060058594,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 34,
+          "nearest_product_id": 38,
+          "score": 0.7359033823013306,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 35,
+          "nearest_product_id": 9,
+          "score": 0.6933424472808838,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 36,
+          "nearest_product_id": 40,
+          "score": 0.7307655811309814,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 37,
+          "nearest_product_id": 9,
+          "score": 0.686930239200592,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 38,
+          "nearest_product_id": 34,
+          "score": 0.7359033823013306,
+          "category_match": true,
+          "color_match": true
+        },
+        {
+          "query_product_id": 39,
+          "nearest_product_id": 40,
+          "score": 0.7114077806472778,
+          "category_match": true,
+          "color_match": false
+        },
+        {
+          "query_product_id": 40,
+          "nearest_product_id": 36,
+          "score": 0.7307655811309814,
+          "category_match": true,
+          "color_match": true
+        }
+      ]
+    }
+  ],
+  "category_accuracy_gain": 0.22499999999999998
+}

@@ -1,0 +1,31 @@
+{
+  "evaluation_identical": true,
+  "top_1_relevant": 11,
+  "queries": 12,
+  "preserved_sha256": {
+    "datasets\\evaluation_queries.json": "73821469b7adb5e9ffb62419e51f980fe9082b508f9ff7f63614c8e55bfcb688",
+    "datasets\\photo_sources.json": "5bb37b4ef194dd644514b65d7a9975aff224d8bc2f4437efc631deeb2d76036c",
+    "datasets\\products.json": "7079e1e51ce091c9d6a603f5f33a487f89faf00283d0d2d634be842acb78ddb1",
+    "datasets\\product_embeddings.json": "1e7738ed62af115735d71ad02edf639df29811b8c55f818536aa64da7f12a7ee",
+    "datasets\\query_embeddings.json": "6407389b39ad186c3b87901b8d7c80cfd02cd3769e479a9d8be5216dd514f232",
+    "datasets\\images\\product_01.png": "e20947b83ad4696b372dbcdb59eaaafdecf97ef6c26897ccb851ef4ead706a26",
+    "datasets\\images\\product_02.png": "2877c065cd611ffa170077dfcd037c5d6a2a82fda2e191b01c394761873326fc",
+    "datasets\\images\\product_03.png": "85fb85a50d6d8c88c4139710acbcb85a0bd3a3b84dfe6f3dfebcf708f82c2963",
+    "datasets\\images\\product_04.png": "330cc102a80a20ebb693eceb5c6cdfdc56b4769716399779f287403afd66ab79",
+    "datasets\\images\\product_05.png": "a199b39f2a7d423f083d1faf26f2122f6b11e34d49be9f95c238d550f23e7cf0",
+    "datasets\\images\\product_06.png": "5710cf0e685b6735a524cde82cf8610b783b639e3fdb6fd29f66bfa21a35c537",
+    "datasets\\images\\product_07.png": "e34422d00a73509e9b4901996e6e928990213c66384ef3513872299fce20ef72",
+    "datasets\\images\\product_08.png": "2f0b2e8da226b2013b9bf05eac4c24642e84af6ba67ef769cd31fad147cf5da2",
+    "datasets\\images\\product_09.png": "199138f253a8ce43e6818a2f04f3261974b3c76a6b3e9fb61c98682f82a3b222",
+    "datasets\\images\\product_10.png": "3459c0970c0b7f80f2f70b5116c0bddb4351b0ee535c98762830befb9414705f",
+    "datasets\\images\\product_11.png": "52fc831396170d89170e6185a063e9542077b508ee68ca7b395e2be9dbdfe318",
+    "datasets\\images\\product_12.png": "be0343b900d3bed8b8936d21a609f633e7aa33382efd2955c67a3e987851a0a4",
+    "datasets\\images\\query_a.png": "e20947b83ad4696b372dbcdb59eaaafdecf97ef6c26897ccb851ef4ead706a26",
+    "datasets\\images\\query_b.png": "a199b39f2a7d423f083d1faf26f2122f6b11e34d49be9f95c238d550f23e7cf0",
+    "datasets\\images\\query_c.png": "199138f253a8ce43e6818a2f04f3261974b3c76a6b3e9fb61c98682f82a3b222",
+    "outputs\\demo_output.txt": "7d8917198b9c2c8840b4c7ea4cdbd573f863deb3ac9b8b79c7ef13f15e6e5626",
+    "outputs\\evaluation_output.txt": "befedd89874fa035e07e73134b7018dae49375467e7bd206dfeee099f21ae843",
+    "outputs\\evaluation_results.json": "f8f4d248e6d5380572e2a1ece96f7d4226d9129882ad4fb8591c2035cb9bbd6a",
+    "outputs\\test_output.txt": "fc57643e9637e1617481b0af24c6f97d89c2fd46831f6e2ab28de02954c494a7"
+  }
+}

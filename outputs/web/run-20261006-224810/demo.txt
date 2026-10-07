@@ -1,0 +1,33 @@
+
+Search mode: text
+Input: black shoes
+Normalized text: black shoes
+Retrieval: whole-token set intersection across name, category, color, description.
+Ranking: score descending, product ID ascending; top-k selection.
+ 1 | Metro Black Shoes | $59.00 | stock=12 | score=2.0000
+13 | Urban Black Walking Shoes | $62.00 | stock=18 | score=2.0000
+17 | Stride Black Walking Shoes | $72.00 | stock=13 | score=2.0000
+ 2 | Sprint Blue Running Shoes | $89.00 | stock=8 | score=1.0000
+ 3 | Pace Red Running Shoes | $79.00 | stock=0 | score=1.0000
+
+Search mode: voice (simulated)
+Input: find running shoes
+Normalized text: find running shoes
+Retrieval: whole-token set intersection across name, category, color, description.
+Ranking: score descending, product ID ascending; top-k selection.
+ 2 | Sprint Blue Running Shoes | $89.00 | stock=8 | score=2.0000
+ 3 | Pace Red Running Shoes | $79.00 | stock=0 | score=2.0000
+14 | Aero Blue Running Shoes | $95.00 | stock=11 | score=2.0000
+15 | Velocity Red Running Shoes | $85.00 | stock=9 | score=2.0000
+ 1 | Metro Black Shoes | $59.00 | stock=12 | score=1.0000
+
+Search mode: image
+Input: datasets/images/query_a.png
+Query embedding: MobileNetV2 ImageNet output (1000 dimensions)
+Retrieval: pretrained inference from pixels; cosine similarity against all catalog images.
+Ranking: score descending, product ID ascending; top-k selection.
+ 1 | Metro Black Shoes | $59.00 | stock=12 | score=1.0000
+15 | Velocity Red Running Shoes | $85.00 | stock=9 | score=0.6842
+18 | Coast Blue Casual Shoes | $68.00 | stock=16 | score=0.6166
+17 | Stride Black Walking Shoes | $72.00 | stock=13 | score=0.5449
+30 | Studio Black Casual Shirt | $34.00 | stock=12 | score=0.4839

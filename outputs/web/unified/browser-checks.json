@@ -1,0 +1,178 @@
+{
+  "passed": true,
+  "checks": [
+    "catalog 40 products",
+    "Vietnamese and English parity",
+    "voice transcript and score",
+    "sample image inference and score",
+    "arbitrary image upload inference",
+    "detail Escape",
+    "no results",
+    "empty input",
+    "390px layout",
+    "mobile image modal",
+    "no JS errors"
+  ],
+  "images": [
+    {
+      "src": "http://127.0.0.1:8014/images/product_01.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_02.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_03.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_04.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_05.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_06.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_07.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_08.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_09.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_10.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_11.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_12.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_13.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_14.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_15.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_16.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_17.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_18.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_19.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_20.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_21.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_22.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_23.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_24.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_25.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_26.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_27.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_28.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_29.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_30.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_31.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_32.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_33.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_34.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_35.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_36.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_37.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_38.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_39.png",
+      "valid": true
+    },
+    {
+      "src": "http://127.0.0.1:8014/images/product_40.png",
+      "valid": true
+    }
+  ]
+}

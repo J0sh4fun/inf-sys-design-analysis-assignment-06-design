@@ -1,0 +1,318 @@
+[
+  {
+    "method": "GET",
+    "path": "/",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/static/app.js",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/static/styles.css",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/api/health",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/api/image-samples",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/images/query_a.png",
+    "status": 200
+  },
+  {
+    "method": "GET",
+    "path": "/api/products/1",
+    "status": 200
+  },
+  {
+    "method": "POST",
+    "path": "/api/search/text",
+    "status": 200,
+    "response": {
+      "mode": "text",
+      "input": "black shoes",
+      "query": {
+        "type": "text",
+        "text": "black shoes",
+        "embedding": null,
+        "filters": {}
+      },
+      "top_k": 5,
+      "results": [
+        {
+          "product": {
+            "product_id": 1,
+            "name": "Metro Black Shoes",
+            "category": "shoes",
+            "color": "black",
+            "price": 59.0,
+            "stock": 12,
+            "description": "Everyday walking shoes with flexible soles.",
+            "image": "datasets/images/product_01.png"
+          },
+          "score": 2.0,
+          "image_url": "/images/product_01.png"
+        },
+        {
+          "product": {
+            "product_id": 2,
+            "name": "Sprint Blue Running Shoes",
+            "category": "shoes",
+            "color": "blue",
+            "price": 89.0,
+            "stock": 8,
+            "description": "Lightweight running shoes for road training.",
+            "image": "datasets/images/product_02.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_02.png"
+        },
+        {
+          "product": {
+            "product_id": 3,
+            "name": "Pace Red Running Shoes",
+            "category": "shoes",
+            "color": "red",
+            "price": 79.0,
+            "stock": 0,
+            "description": "Cushioned running shoes for daily training.",
+            "image": "datasets/images/product_03.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_03.png"
+        },
+        {
+          "product": {
+            "product_id": 4,
+            "name": "Commuter Black Backpack",
+            "category": "bags",
+            "color": "black",
+            "price": 45.0,
+            "stock": 20,
+            "description": "Backpack with a laptop pocket for commuting.",
+            "image": "datasets/images/product_04.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_04.png"
+        },
+        {
+          "product": {
+            "product_id": 7,
+            "name": "Night Black Shirt",
+            "category": "clothing",
+            "color": "black",
+            "price": 29.0,
+            "stock": 15,
+            "description": "Cotton shirt with short sleeves.",
+            "image": "datasets/images/product_07.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_07.png"
+        }
+      ],
+      "diagnostics": {
+        "retrieval_method": "Whole-token matching; shared unique tokens across name, category, color and description",
+        "ranking_method": "Score descending, product ID ascending for ties; top-k selection",
+        "returned_results": 5,
+        "backend_processing_ms": 0.8871999998518731,
+        "duration_scope": "Query preparation, retrieval, ranking and response construction; excludes network and JSON serialization"
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/api/search/voice",
+    "status": 200,
+    "response": {
+      "mode": "voice",
+      "input": "find running shoes",
+      "query": {
+        "type": "voice",
+        "text": "find running shoes",
+        "embedding": null,
+        "filters": {}
+      },
+      "top_k": 5,
+      "results": [
+        {
+          "product": {
+            "product_id": 2,
+            "name": "Sprint Blue Running Shoes",
+            "category": "shoes",
+            "color": "blue",
+            "price": 89.0,
+            "stock": 8,
+            "description": "Lightweight running shoes for road training.",
+            "image": "datasets/images/product_02.png"
+          },
+          "score": 2.0,
+          "image_url": "/images/product_02.png"
+        },
+        {
+          "product": {
+            "product_id": 3,
+            "name": "Pace Red Running Shoes",
+            "category": "shoes",
+            "color": "red",
+            "price": 79.0,
+            "stock": 0,
+            "description": "Cushioned running shoes for daily training.",
+            "image": "datasets/images/product_03.png"
+          },
+          "score": 2.0,
+          "image_url": "/images/product_03.png"
+        },
+        {
+          "product": {
+            "product_id": 1,
+            "name": "Metro Black Shoes",
+            "category": "shoes",
+            "color": "black",
+            "price": 59.0,
+            "stock": 12,
+            "description": "Everyday walking shoes with flexible soles.",
+            "image": "datasets/images/product_01.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_01.png"
+        },
+        {
+          "product": {
+            "product_id": 10,
+            "name": "Canvas White Shoes",
+            "category": "shoes",
+            "color": "white",
+            "price": 49.0,
+            "stock": 10,
+            "description": "Casual canvas shoes for everyday walking.",
+            "image": "datasets/images/product_10.png"
+          },
+          "score": 1.0,
+          "image_url": "/images/product_10.png"
+        }
+      ],
+      "diagnostics": {
+        "retrieval_method": "Whole-token matching; shared unique tokens across name, category, color and description",
+        "ranking_method": "Score descending, product ID ascending for ties; top-k selection",
+        "returned_results": 4,
+        "backend_processing_ms": 0.7908000006864313,
+        "duration_scope": "Query preparation, retrieval, ranking and response construction; excludes network and JSON serialization"
+      }
+    }
+  },
+  {
+    "method": "POST",
+    "path": "/api/search/image",
+    "status": 200,
+    "response": {
+      "mode": "image",
+      "input": "sample-2",
+      "query": {
+        "type": "image",
+        "text": "",
+        "embedding": [
+          0.0,
+          1.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.0,
+          0.5,
+          0.0
+        ],
+        "filters": {}
+      },
+      "top_k": 5,
+      "results": [
+        {
+          "product": {
+            "product_id": 5,
+            "name": "Trail Green Backpack",
+            "category": "bags",
+            "color": "green",
+            "price": 65.0,
+            "stock": 6,
+            "description": "Backpack for hiking with roomy storage.",
+            "image": "datasets/images/product_05.png"
+          },
+          "score": 0.9999999999999998,
+          "image_url": "/images/product_05.png"
+        },
+        {
+          "product": {
+            "product_id": 4,
+            "name": "Commuter Black Backpack",
+            "category": "bags",
+            "color": "black",
+            "price": 45.0,
+            "stock": 20,
+            "description": "Backpack with a laptop pocket for commuting.",
+            "image": "datasets/images/product_04.png"
+          },
+          "score": 0.7999999999999998,
+          "image_url": "/images/product_04.png"
+        },
+        {
+          "product": {
+            "product_id": 11,
+            "name": "Market Red Tote",
+            "category": "bags",
+            "color": "red",
+            "price": 18.0,
+            "stock": 25,
+            "description": "Reusable tote bag for shopping.",
+            "image": "datasets/images/product_11.png"
+          },
+          "score": 0.7999999999999998,
+          "image_url": "/images/product_11.png"
+        },
+        {
+          "product": {
+            "product_id": 12,
+            "name": "Forest Green Shirt",
+            "category": "clothing",
+            "color": "green",
+            "price": 32.0,
+            "stock": 7,
+            "description": "Breathable cotton shirt for relaxed weekends.",
+            "image": "datasets/images/product_12.png"
+          },
+          "score": 0.19999999999999996,
+          "image_url": "/images/product_12.png"
+        },
+        {
+          "product": {
+            "product_id": 1,
+            "name": "Metro Black Shoes",
+            "category": "shoes",
+            "color": "black",
+            "price": 59.0,
+            "stock": 12,
+            "description": "Everyday walking shoes with flexible soles.",
+            "image": "datasets/images/product_01.png"
+          },
+          "score": 0.0,
+          "image_url": "/images/product_01.png"
+        }
+      ],
+      "diagnostics": {
+        "retrieval_method": "All indexed products; cosine similarity of predefined artificial vectors",
+        "ranking_method": "Score descending, product ID ascending for ties; top-k selection",
+        "returned_results": 5,
+        "backend_processing_ms": 1.1164999996253755,
+        "duration_scope": "Query preparation, retrieval, ranking and response construction; excludes network and JSON serialization"
+      }
+    }
+  }
+]

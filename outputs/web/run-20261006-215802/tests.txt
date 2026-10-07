@@ -1,0 +1,38 @@
+D:\My workspace\Project\HTTT-assignment06\.venv-web\Lib\site-packages\fastapi\testclient.py:1: StarletteDeprecationWarning: Using `httpx` with `starlette.testclient` is deprecated; install `httpx2` instead.
+  from starlette.testclient import TestClient as TestClient  # noqa
+test_cosine_known_vectors (test_search.SearchTests.test_cosine_known_vectors) ... ok
+test_empty_results (test_search.SearchTests.test_empty_results) ... ok
+test_equivalent_voice_text (test_search.SearchTests.test_equivalent_voice_text) ... ok
+test_invalid_embeddings (test_search.SearchTests.test_invalid_embeddings) ... ok
+test_invalid_top_k (test_search.SearchTests.test_invalid_top_k) ... ok
+test_normalization_and_schema (test_search.SearchTests.test_normalization_and_schema) ... ok
+test_product_details_and_menu_errors (test_search.SearchTests.test_product_details_and_menu_errors) ... ok
+test_product_vector_consistency (test_search.SearchTests.test_product_vector_consistency) ... ok
+test_retrieval_preserves_order_and_all_images (test_search.SearchTests.test_retrieval_preserves_order_and_all_images) ... ok
+test_storage_paths_and_missing_files (test_search.SearchTests.test_storage_paths_and_missing_files) ... ok
+test_ties_and_top_k (test_search.SearchTests.test_ties_and_top_k) ... ok
+test_voice_sequence_and_empty_rejection (test_search.SearchTests.test_voice_sequence_and_empty_rejection) ... ok
+test_whole_tokens_and_unique_tokens (test_search.SearchTests.test_whole_tokens_and_unique_tokens) ... ok
+test_all_registered_images_match_pipeline (test_web_api.WebAPITests.test_all_registered_images_match_pipeline) ... ok
+test_bilingual_search_and_original_input (test_web_api.WebAPITests.test_bilingual_search_and_original_input) ... ok
+test_catalog_images_and_no_ranking_before_query (test_web_api.WebAPITests.test_catalog_images_and_no_ranking_before_query) ... ok
+test_empty_input_rejected_before_search (test_web_api.WebAPITests.test_empty_input_rejected_before_search) ... ok
+test_image_and_static_boundaries (test_web_api.WebAPITests.test_image_and_static_boundaries) ... ok
+test_invalid_top_k_all_modes (test_web_api.WebAPITests.test_invalid_top_k_all_modes) ... ok
+test_missing_sample_file_clear_error (test_web_api.WebAPITests.test_missing_sample_file_clear_error) ... ok
+test_no_match_success (test_web_api.WebAPITests.test_no_match_success) ... ok
+test_product_details_and_missing_product (test_web_api.WebAPITests.test_product_details_and_missing_product) ... ok
+test_query_with_only_vietnamese_filler (test_web_api.WebAPITests.test_query_with_only_vietnamese_filler) ... ok
+test_request_structure (test_web_api.WebAPITests.test_request_structure) ... ok
+test_text_and_voice_equivalence (test_web_api.WebAPITests.test_text_and_voice_equivalence) ... ok
+test_text_matches_direct_and_diagnostics (test_web_api.WebAPITests.test_text_matches_direct_and_diagnostics) ... ok
+test_top_k_limit (test_web_api.WebAPITests.test_top_k_limit) ... ok
+test_unexpected_failure_logged_not_leaked (test_web_api.WebAPITests.test_unexpected_failure_logged_not_leaked) ... ok
+test_unknown_sample_and_paths_rejected (test_web_api.WebAPITests.test_unknown_sample_and_paths_rejected) ... ok
+test_vietnamese_voice_unicode_and_no_accents (test_web_api.WebAPITests.test_vietnamese_voice_unicode_and_no_accents) ... ok
+test_voice_matches_direct_pipeline_and_sequence (test_web_api.WebAPITests.test_voice_matches_direct_pipeline_and_sequence) ... ok
+
+----------------------------------------------------------------------
+Ran 31 tests in 0.822s
+
+OK

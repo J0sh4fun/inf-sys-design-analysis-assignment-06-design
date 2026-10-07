@@ -1,0 +1,9 @@
+Retrieval queries: 12
+Top-1 relevant: 11
+Top-1 success rate: 91.67%
+text: 4/5 (80.00%)
+voice: 4/4 (100.00%)
+image: 3/3 (100.00%)
+FAILED t5 (sneakers): Known limitation: no synonym expansion from sneakers to shoes. Top-1=None
+Separate input validation: 6/6 passed
+Artificial image vectors validate only the simulated pipeline, not real image understanding.

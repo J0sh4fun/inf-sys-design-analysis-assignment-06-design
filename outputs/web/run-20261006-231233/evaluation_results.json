@@ -1,0 +1,209 @@
+{
+  "retrieval_queries": 12,
+  "top_1_relevant": 11,
+  "top_1_success_rate": 0.9166666666666666,
+  "per_mode": {
+    "text": {
+      "queries": 5,
+      "top_1_relevant": 4,
+      "success_rate": 0.8
+    },
+    "voice": {
+      "queries": 4,
+      "top_1_relevant": 4,
+      "success_rate": 1.0
+    },
+    "image": {
+      "queries": 3,
+      "top_1_relevant": 3,
+      "success_rate": 1.0
+    }
+  },
+  "failed_queries": [
+    {
+      "query_id": "t5",
+      "mode": "text",
+      "input": "sneakers",
+      "relevant_product_ids": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "explanation": "Known limitation: no synonym expansion from sneakers to shoes.",
+      "top_1_product_id": null,
+      "success": false
+    }
+  ],
+  "query_results": [
+    {
+      "query_id": "t1",
+      "mode": "text",
+      "input": "black shoes",
+      "relevant_product_ids": [
+        1
+      ],
+      "explanation": "Exact color and category.",
+      "top_1_product_id": 1,
+      "success": true
+    },
+    {
+      "query_id": "t2",
+      "mode": "text",
+      "input": "green backpack",
+      "relevant_product_ids": [
+        5
+      ],
+      "explanation": "Exact color and product kind.",
+      "top_1_product_id": 5,
+      "success": true
+    },
+    {
+      "query_id": "t3",
+      "mode": "text",
+      "input": "white shirt",
+      "relevant_product_ids": [
+        6
+      ],
+      "explanation": "Exact color and product kind.",
+      "top_1_product_id": 6,
+      "success": true
+    },
+    {
+      "query_id": "t4",
+      "mode": "text",
+      "input": "blue bottle",
+      "relevant_product_ids": [
+        8
+      ],
+      "explanation": "Exact color and product kind.",
+      "top_1_product_id": 8,
+      "success": true
+    },
+    {
+      "query_id": "t5",
+      "mode": "text",
+      "input": "sneakers",
+      "relevant_product_ids": [
+        1,
+        2,
+        3,
+        10
+      ],
+      "explanation": "Known limitation: no synonym expansion from sneakers to shoes.",
+      "top_1_product_id": null,
+      "success": false
+    },
+    {
+      "query_id": "v1",
+      "mode": "voice",
+      "input": "find running shoes",
+      "relevant_product_ids": [
+        2,
+        3
+      ],
+      "explanation": "Running shoes; supplied transcript only.",
+      "top_1_product_id": 2,
+      "success": true
+    },
+    {
+      "query_id": "v2",
+      "mode": "voice",
+      "input": "red tote",
+      "relevant_product_ids": [
+        11
+      ],
+      "explanation": "Exact color and product kind.",
+      "top_1_product_id": 11,
+      "success": true
+    },
+    {
+      "query_id": "v3",
+      "mode": "voice",
+      "input": "black shirt",
+      "relevant_product_ids": [
+        7
+      ],
+      "explanation": "Exact color and product kind.",
+      "top_1_product_id": 7,
+      "success": true
+    },
+    {
+      "query_id": "v4",
+      "mode": "voice",
+      "input": "red running shoes",
+      "relevant_product_ids": [
+        3
+      ],
+      "explanation": "Out-of-stock products remain eligible.",
+      "top_1_product_id": 3,
+      "success": true
+    },
+    {
+      "query_id": "i1",
+      "mode": "image",
+      "input": "datasets/images/query_a.png",
+      "relevant_product_ids": [
+        1
+      ],
+      "explanation": "Fixed vector for black shoe illustration.",
+      "top_1_product_id": 1,
+      "success": true
+    },
+    {
+      "query_id": "i2",
+      "mode": "image",
+      "input": "datasets/images/query_b.png",
+      "relevant_product_ids": [
+        5
+      ],
+      "explanation": "Fixed vector for green bag illustration.",
+      "top_1_product_id": 5,
+      "success": true
+    },
+    {
+      "query_id": "i3",
+      "mode": "image",
+      "input": "datasets/images/query_c.png",
+      "relevant_product_ids": [
+        9
+      ],
+      "explanation": "Fixed vector for red bottle illustration.",
+      "top_1_product_id": 9,
+      "success": true
+    }
+  ],
+  "input_validation": [
+    {
+      "case": "empty text",
+      "passed": true,
+      "message": "Search text must not be empty."
+    },
+    {
+      "case": "empty transcript",
+      "passed": true,
+      "message": "Simulated voice transcript must not be empty."
+    },
+    {
+      "case": "unsupported image",
+      "passed": true,
+      "message": "Missing image: D:\\My workspace\\Project\\HTTT-assignment06\\unknown.png"
+    },
+    {
+      "case": "invalid top-k",
+      "passed": true,
+      "message": "top_k must be a positive integer."
+    },
+    {
+      "case": "zero embedding",
+      "passed": true,
+      "message": "Embedding must have nonzero norm."
+    },
+    {
+      "case": "wrong dimensions",
+      "passed": true,
+      "message": "Embedding must have 512 dimensions."
+    }
+  ],
+  "limitation": "Image queries use CLIP ViT-B/32; this small fixed set is not an external benchmark for arbitrary catalog images."
+}

@@ -1,0 +1,26 @@
+{
+  "passed": true,
+  "recognition": "injected test double; no physical microphone or speech service verified",
+  "checks": [
+    "no automatic capture",
+    "vi-VN/en-US",
+    "interim vs final",
+    "stop",
+    "permission/network/no speech/device errors",
+    "restore text",
+    "cancel on mode/catalog",
+    "ignore late events",
+    "unsupported browser",
+    "mobile layout"
+  ],
+  "voiceRequests": [
+    {
+      "top_k": 5,
+      "transcript": "giày đen"
+    },
+    {
+      "top_k": 5,
+      "transcript": "running shoes"
+    }
+  ]
+}

@@ -1,0 +1,30 @@
+{
+  "evaluation_identical": true,
+  "top_1_relevant": 11,
+  "queries": 12,
+  "preserved_sha256": {
+    "datasets\\evaluation_queries.json": "73821469b7adb5e9ffb62419e51f980fe9082b508f9ff7f63614c8e55bfcb688",
+    "datasets\\products.json": "7079e1e51ce091c9d6a603f5f33a487f89faf00283d0d2d634be842acb78ddb1",
+    "datasets\\product_embeddings.json": "1e7738ed62af115735d71ad02edf639df29811b8c55f818536aa64da7f12a7ee",
+    "datasets\\query_embeddings.json": "6407389b39ad186c3b87901b8d7c80cfd02cd3769e479a9d8be5216dd514f232",
+    "datasets\\images\\product_01.png": "3b39daa3364b5ae99a7f888c98e330b00717b5ecde9855ed8b6692de4f84116c",
+    "datasets\\images\\product_02.png": "291586618deedab8f558801e352c4a6032bca23acf13de16b0e2337133b0d563",
+    "datasets\\images\\product_03.png": "e0c5078883d95908b7dc9a2600dd32c76d30504154d36ebe1f7115db8f2ed77a",
+    "datasets\\images\\product_04.png": "8a6016cefda00909c07368e56acb045b944bda3ee8afb558c57ccb7ae0c1d0e1",
+    "datasets\\images\\product_05.png": "43755acc48b40bca2ef31144e2fe6ae2193ae619d7ae8d3f4bbd0626d9586578",
+    "datasets\\images\\product_06.png": "46440e8cc3adfa16152642ad6cb859d207632163066176c84c01f0e530f9abcb",
+    "datasets\\images\\product_07.png": "c1697124f54108e1cfc7d8272aad220ddbaf683980720cf39318762f517434fa",
+    "datasets\\images\\product_08.png": "f339bb85cfc79e7777f9c4cac465392cc4aeae3dfa3b88b7ab4ce552e4378949",
+    "datasets\\images\\product_09.png": "576b58225c7243729695926628dc265e11b62ba43bb2b4d849c72f0f1a4342bf",
+    "datasets\\images\\product_10.png": "27a23dfa36d7f9a70a5f5a0b2b97166faf7f87ea77a883c9267a884950f1309e",
+    "datasets\\images\\product_11.png": "01ad9db55dadec7d6a8fc62fbf6cba51f8ff62328462de6693c1024bd6ba0eaa",
+    "datasets\\images\\product_12.png": "c6c95e21b82efed715c4ed0c5f97f6a70f4e9d0e770acae0c6265caf582d7a5f",
+    "datasets\\images\\query_a.png": "3b39daa3364b5ae99a7f888c98e330b00717b5ecde9855ed8b6692de4f84116c",
+    "datasets\\images\\query_b.png": "43755acc48b40bca2ef31144e2fe6ae2193ae619d7ae8d3f4bbd0626d9586578",
+    "datasets\\images\\query_c.png": "576b58225c7243729695926628dc265e11b62ba43bb2b4d849c72f0f1a4342bf",
+    "outputs\\demo_output.txt": "7d8917198b9c2c8840b4c7ea4cdbd573f863deb3ac9b8b79c7ef13f15e6e5626",
+    "outputs\\evaluation_output.txt": "befedd89874fa035e07e73134b7018dae49375467e7bd206dfeee099f21ae843",
+    "outputs\\evaluation_results.json": "f8f4d248e6d5380572e2a1ece96f7d4226d9129882ad4fb8591c2035cb9bbd6a",
+    "outputs\\test_output.txt": "fc57643e9637e1617481b0af24c6f97d89c2fd46831f6e2ab28de02954c494a7"
+  }
+}

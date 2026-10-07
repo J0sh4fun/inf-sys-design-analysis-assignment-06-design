@@ -1,0 +1,362 @@
+[
+  {
+    "product_id": 1,
+    "file": "datasets/images/product_01.png",
+    "source": "https://pngimg.com/image/5786",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5786.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 2,
+    "file": "datasets/images/product_02.png",
+    "source": "https://pngimg.com/image/5805",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5805.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 3,
+    "file": "datasets/images/product_03.png",
+    "source": "https://pngimg.com/image/5808",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5808.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 4,
+    "file": "datasets/images/product_04.png",
+    "source": "https://pngimg.com/image/6334",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6334.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 5,
+    "file": "datasets/images/product_05.png",
+    "source": "https://pngimg.com/image/6346",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6346.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 6,
+    "file": "datasets/images/product_06.png",
+    "source": "https://pngimg.com/image/5426",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5426.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 7,
+    "file": "datasets/images/product_07.png",
+    "source": "https://pngimg.com/image/5427",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5427.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 8,
+    "file": "datasets/images/product_08.png",
+    "source": "https://pngimg.com/image/10144",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG10144.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 9,
+    "file": "datasets/images/product_09.png",
+    "source": "https://pngimg.com/image/98942",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98942.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 10,
+    "file": "datasets/images/product_10.png",
+    "source": "https://pngimg.com/image/5781",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5781.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 11,
+    "file": "datasets/images/product_11.png",
+    "source": "https://pngimg.com/image/6420",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/women_bag/women_bag_PNG6420.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 12,
+    "file": "datasets/images/product_12.png",
+    "source": "https://pngimg.com/image/5454",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5454.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 13,
+    "file": "datasets/images/product_13.png",
+    "source": "https://pngimg.com/image/5819",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5819.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 14,
+    "file": "datasets/images/product_14.png",
+    "source": "https://pngimg.com/image/5787",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5787.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 15,
+    "file": "datasets/images/product_15.png",
+    "source": "https://pngimg.com/image/5806",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5806.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 16,
+    "file": "datasets/images/product_16.png",
+    "source": "https://pngimg.com/image/5790",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5790.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 17,
+    "file": "datasets/images/product_17.png",
+    "source": "https://pngimg.com/image/5782",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5782.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 18,
+    "file": "datasets/images/product_18.png",
+    "source": "https://pngimg.com/image/5813",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/running_shoes/running_shoes_PNG5813.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 19,
+    "file": "datasets/images/product_19.png",
+    "source": "https://pngimg.com/image/6335",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6335.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 20,
+    "file": "datasets/images/product_20.png",
+    "source": "https://pngimg.com/image/6353",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6353.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 21,
+    "file": "datasets/images/product_21.png",
+    "source": "https://pngimg.com/image/6400",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/women_bag/women_bag_PNG6400.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 22,
+    "file": "datasets/images/product_22.png",
+    "source": "https://pngimg.com/image/6343",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6343.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 23,
+    "file": "datasets/images/product_23.png",
+    "source": "https://pngimg.com/image/6354",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6354.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 24,
+    "file": "datasets/images/product_24.png",
+    "source": "https://pngimg.com/image/6406",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/women_bag/women_bag_PNG6406.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 25,
+    "file": "datasets/images/product_25.png",
+    "source": "https://pngimg.com/image/6313",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/backpack/backpack_PNG6313.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 26,
+    "file": "datasets/images/product_26.png",
+    "source": "https://pngimg.com/image/5429",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5429.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 27,
+    "file": "datasets/images/product_27.png",
+    "source": "https://pngimg.com/image/5451",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5451.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 28,
+    "file": "datasets/images/product_28.png",
+    "source": "https://pngimg.com/image/5450",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5450.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 29,
+    "file": "datasets/images/product_29.png",
+    "source": "https://pngimg.com/image/5434",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5434.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 30,
+    "file": "datasets/images/product_30.png",
+    "source": "https://pngimg.com/image/5446",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5446.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 31,
+    "file": "datasets/images/product_31.png",
+    "source": "https://pngimg.com/image/5437",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5437.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 32,
+    "file": "datasets/images/product_32.png",
+    "source": "https://pngimg.com/image/5447",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/tshirt/tshirt_PNG5447.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 33,
+    "file": "datasets/images/product_33.png",
+    "source": "https://pngimg.com/image/98935",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98935.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 34,
+    "file": "datasets/images/product_34.png",
+    "source": "https://pngimg.com/image/10166",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG10166.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 35,
+    "file": "datasets/images/product_35.png",
+    "source": "https://pngimg.com/image/98945",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98945.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 36,
+    "file": "datasets/images/product_36.png",
+    "source": "https://pngimg.com/image/98949",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98949.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 37,
+    "file": "datasets/images/product_37.png",
+    "source": "https://pngimg.com/image/98947",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98947.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 38,
+    "file": "datasets/images/product_38.png",
+    "source": "https://pngimg.com/image/98954",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98954.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 39,
+    "file": "datasets/images/product_39.png",
+    "source": "https://pngimg.com/image/98950",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98950.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  },
+  {
+    "product_id": 40,
+    "file": "datasets/images/product_40.png",
+    "source": "https://pngimg.com/image/98939",
+    "author": "PNGimg.com",
+    "license": "https://creativecommons.org/licenses/by-nc/4.0/",
+    "download_url": "https://pngimg.com/uploads/water_bottle/water_bottle_PNG98939.png",
+    "modifications": "Isolated cutout recolored to the catalog color and centered on a neutral background."
+  }
+]

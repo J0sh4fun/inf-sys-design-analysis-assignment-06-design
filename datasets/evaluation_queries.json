@@ -1,0 +1,114 @@
+[
+  {
+    "query_id": "t1",
+    "mode": "text",
+    "input": "black shoes",
+    "relevant_product_ids": [
+      1
+    ],
+    "explanation": "Exact color and category."
+  },
+  {
+    "query_id": "t2",
+    "mode": "text",
+    "input": "green backpack",
+    "relevant_product_ids": [
+      5
+    ],
+    "explanation": "Exact color and product kind."
+  },
+  {
+    "query_id": "t3",
+    "mode": "text",
+    "input": "white shirt",
+    "relevant_product_ids": [
+      6
+    ],
+    "explanation": "Exact color and product kind."
+  },
+  {
+    "query_id": "t4",
+    "mode": "text",
+    "input": "blue bottle",
+    "relevant_product_ids": [
+      8
+    ],
+    "explanation": "Exact color and product kind."
+  },
+  {
+    "query_id": "t5",
+    "mode": "text",
+    "input": "sneakers",
+    "relevant_product_ids": [
+      1,
+      2,
+      3,
+      10
+    ],
+    "explanation": "Known limitation: no synonym expansion from sneakers to shoes."
+  },
+  {
+    "query_id": "v1",
+    "mode": "voice",
+    "input": "find running shoes",
+    "relevant_product_ids": [
+      2,
+      3
+    ],
+    "explanation": "Running shoes; supplied transcript only."
+  },
+  {
+    "query_id": "v2",
+    "mode": "voice",
+    "input": "red tote",
+    "relevant_product_ids": [
+      11
+    ],
+    "explanation": "Exact color and product kind."
+  },
+  {
+    "query_id": "v3",
+    "mode": "voice",
+    "input": "black shirt",
+    "relevant_product_ids": [
+      7
+    ],
+    "explanation": "Exact color and product kind."
+  },
+  {
+    "query_id": "v4",
+    "mode": "voice",
+    "input": "red running shoes",
+    "relevant_product_ids": [
+      3
+    ],
+    "explanation": "Out-of-stock products remain eligible."
+  },
+  {
+    "query_id": "i1",
+    "mode": "image",
+    "input": "datasets/images/query_a.png",
+    "relevant_product_ids": [
+      1
+    ],
+    "explanation": "Fixed vector for black shoe illustration."
+  },
+  {
+    "query_id": "i2",
+    "mode": "image",
+    "input": "datasets/images/query_b.png",
+    "relevant_product_ids": [
+      5
+    ],
+    "explanation": "Fixed vector for green bag illustration."
+  },
+  {
+    "query_id": "i3",
+    "mode": "image",
+    "input": "datasets/images/query_c.png",
+    "relevant_product_ids": [
+      9
+    ],
+    "explanation": "Fixed vector for red bottle illustration."
+  }
+]

@@ -1,0 +1,18 @@
+test_cosine_known_vectors (test_search.SearchTests.test_cosine_known_vectors) ... ok
+test_empty_results (test_search.SearchTests.test_empty_results) ... ok
+test_equivalent_voice_text (test_search.SearchTests.test_equivalent_voice_text) ... ok
+test_invalid_embeddings (test_search.SearchTests.test_invalid_embeddings) ... ok
+test_invalid_top_k (test_search.SearchTests.test_invalid_top_k) ... ok
+test_normalization_and_schema (test_search.SearchTests.test_normalization_and_schema) ... ok
+test_product_details_and_menu_errors (test_search.SearchTests.test_product_details_and_menu_errors) ... ok
+test_product_vector_consistency (test_search.SearchTests.test_product_vector_consistency) ... ok
+test_retrieval_preserves_order_and_all_images (test_search.SearchTests.test_retrieval_preserves_order_and_all_images) ... ok
+test_storage_paths_and_missing_files (test_search.SearchTests.test_storage_paths_and_missing_files) ... ok
+test_ties_and_top_k (test_search.SearchTests.test_ties_and_top_k) ... ok
+test_voice_sequence_and_empty_rejection (test_search.SearchTests.test_voice_sequence_and_empty_rejection) ... ok
+test_whole_tokens_and_unique_tokens (test_search.SearchTests.test_whole_tokens_and_unique_tokens) ... ok
+
+----------------------------------------------------------------------
+Ran 13 tests in 0.059s
+
+OK
